@@ -1,0 +1,6 @@
+{
+  "name": "dashboardadmin",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./DashboardAdmin.js"
+}

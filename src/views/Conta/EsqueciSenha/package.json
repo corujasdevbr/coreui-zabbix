@@ -1,0 +1,6 @@
+{
+  "name": "EsqueciSenha",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./EsqueciSenha.js"
+}

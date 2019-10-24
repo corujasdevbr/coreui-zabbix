@@ -1,0 +1,2450 @@
+[
+    {
+        "funcionarioId": 1,
+        "nomeFuncionario": "Mauricio Bona",
+        "cargoId": 200,
+        "cargo": "Diretor",
+        "dataCriacao": "2019-05-14T18:57:55.403",
+        "dataAlteracao": "2019-05-14T18:57:55.403",
+        "usuarioId": 3,
+        "usuario": {
+            "usuarioId": 3,
+            "email": "mauricio.bona@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T18:57:55.38",
+            "dataAlteracao": "2019-05-14T18:57:55.38"
+        }
+    },
+    {
+        "funcionarioId": 2,
+        "nomeFuncionario": "Juscelino",
+        "cargoId": 201,
+        "cargo": "CRI",
+        "dataCriacao": "2019-05-14T18:57:55.403",
+        "dataAlteracao": "2019-05-14T18:57:55.403",
+        "usuarioId": 4,
+        "usuario": {
+            "usuarioId": 4,
+            "email": "jucelino.silva@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T18:57:55.38",
+            "dataAlteracao": "2019-05-14T18:57:55.38"
+        }
+    },
+    {
+        "funcionarioId": 3,
+        "nomeFuncionario": "João Roberto Campaner",
+        "cargoId": 200,
+        "cargo": "Diretor",
+        "dataCriacao": "2019-05-14T16:10:43.397",
+        "dataAlteracao": "2019-05-14T16:10:43.397",
+        "usuarioId": 7,
+        "usuario": {
+            "usuarioId": 7,
+            "email": "jcampaner@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:10:42.98",
+            "dataAlteracao": "2019-05-14T16:10:42.98"
+        }
+    },
+    {
+        "funcionarioId": 4,
+        "nomeFuncionario": "Davi Ramos Souza",
+        "cargoId": 201,
+        "cargo": "CRI",
+        "dataCriacao": "2019-05-14T16:10:43.477",
+        "dataAlteracao": "2019-05-14T16:10:43.477",
+        "usuarioId": 8,
+        "usuario": {
+            "usuarioId": 8,
+            "email": "davi.souza@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:10:43.44",
+            "dataAlteracao": "2019-05-14T16:10:43.44"
+        }
+    },
+    {
+        "funcionarioId": 5,
+        "nomeFuncionario": "Pedro Teodoro de Faria",
+        "cargoId": 200,
+        "cargo": "Diretor",
+        "dataCriacao": "2019-05-14T16:10:44.177",
+        "dataAlteracao": "2019-05-14T16:10:44.177",
+        "usuarioId": 9,
+        "usuario": {
+            "usuarioId": 9,
+            "email": "pfaria@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:10:44.163",
+            "dataAlteracao": "2019-05-14T16:10:44.163"
+        }
+    },
+    {
+        "funcionarioId": 6,
+        "nomeFuncionario": "Eny da Graca Paiva Centini",
+        "cargoId": 201,
+        "cargo": "CRI",
+        "dataCriacao": "2019-05-14T16:10:44.23",
+        "dataAlteracao": "2019-05-14T16:10:44.23",
+        "usuarioId": 10,
+        "usuario": {
+            "usuarioId": 10,
+            "email": "eny@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:10:44.2",
+            "dataAlteracao": "2019-05-14T16:10:44.2"
+        }
+    },
+    {
+        "funcionarioId": 7,
+        "nomeFuncionario": "José Luis Leme Candido Teixeira",
+        "cargoId": 200,
+        "cargo": "Diretor",
+        "dataCriacao": "2019-05-14T16:10:45.107",
+        "dataAlteracao": "2019-05-14T16:10:45.107",
+        "usuarioId": 11,
+        "usuario": {
+            "usuarioId": 11,
+            "email": "jteixeira@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:10:45.09",
+            "dataAlteracao": "2019-05-14T16:10:45.09"
+        }
+    },
+    {
+        "funcionarioId": 8,
+        "nomeFuncionario": "Guilherme de Souza Dias",
+        "cargoId": 201,
+        "cargo": "CRI",
+        "dataCriacao": "2019-05-14T16:10:45.147",
+        "dataAlteracao": "2019-05-14T16:10:45.147",
+        "usuarioId": 12,
+        "usuario": {
+            "usuarioId": 12,
+            "email": "guilherme.dias@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:10:45.13",
+            "dataAlteracao": "2019-05-14T16:10:45.13"
+        }
+    },
+    {
+        "funcionarioId": 9,
+        "nomeFuncionario": "Estebe Ormazabal Insausti",
+        "cargoId": 200,
+        "cargo": "Diretor",
+        "dataCriacao": "2019-05-14T16:10:45.793",
+        "dataAlteracao": "2019-05-14T16:10:45.793",
+        "usuarioId": 13,
+        "usuario": {
+            "usuarioId": 13,
+            "email": "estebe.ormazabal@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:10:45.767",
+            "dataAlteracao": "2019-05-14T16:10:45.767"
+        }
+    },
+    {
+        "funcionarioId": 10,
+        "nomeFuncionario": "Viviane Cremaschi Lima",
+        "cargoId": 201,
+        "cargo": "CRI",
+        "dataCriacao": "2019-05-14T16:10:45.843",
+        "dataAlteracao": "2019-05-14T16:10:45.843",
+        "usuarioId": 14,
+        "usuario": {
+            "usuarioId": 14,
+            "email": "viviane.lima@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:10:45.823",
+            "dataAlteracao": "2019-05-14T16:10:45.823"
+        }
+    },
+    {
+        "funcionarioId": 11,
+        "nomeFuncionario": "Marcel  Adriano Porto",
+        "cargoId": 200,
+        "cargo": "Diretor",
+        "dataCriacao": "2019-05-14T16:10:46.663",
+        "dataAlteracao": "2019-05-14T16:10:46.663",
+        "usuarioId": 15,
+        "usuario": {
+            "usuarioId": 15,
+            "email": "marcelporto@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:10:46.647",
+            "dataAlteracao": "2019-05-14T16:10:46.647"
+        }
+    },
+    {
+        "funcionarioId": 12,
+        "nomeFuncionario": "Clayton dos Santos Lambert ",
+        "cargoId": 201,
+        "cargo": "CRI",
+        "dataCriacao": "2019-05-14T16:10:46.717",
+        "dataAlteracao": "2019-05-14T16:10:46.717",
+        "usuarioId": 16,
+        "usuario": {
+            "usuarioId": 16,
+            "email": "clambert@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:10:46.693",
+            "dataAlteracao": "2019-05-14T16:10:46.693"
+        }
+    },
+    {
+        "funcionarioId": 13,
+        "nomeFuncionario": "Getulio Rocha Junior ",
+        "cargoId": 200,
+        "cargo": "Diretor",
+        "dataCriacao": "2019-05-14T16:10:47.52",
+        "dataAlteracao": "2019-05-14T16:10:47.52",
+        "usuarioId": 17,
+        "usuario": {
+            "usuarioId": 17,
+            "email": "getuliorj@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:10:47.503",
+            "dataAlteracao": "2019-05-14T16:10:47.503"
+        }
+    },
+    {
+        "funcionarioId": 14,
+        "nomeFuncionario": "Pedro Sergio Montero",
+        "cargoId": 201,
+        "cargo": "CRI",
+        "dataCriacao": "2019-05-14T16:10:47.563",
+        "dataAlteracao": "2019-05-14T16:10:47.563",
+        "usuarioId": 18,
+        "usuario": {
+            "usuarioId": 18,
+            "email": "montero@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:10:47.543",
+            "dataAlteracao": "2019-05-14T16:10:47.543"
+        }
+    },
+    {
+        "funcionarioId": 15,
+        "nomeFuncionario": "Eduardo Macedo F. Souza",
+        "cargoId": 200,
+        "cargo": "Diretor",
+        "dataCriacao": "2019-05-14T16:10:48.317",
+        "dataAlteracao": "2019-05-14T16:10:48.317",
+        "usuarioId": 19,
+        "usuario": {
+            "usuarioId": 19,
+            "email": "emacedo@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:10:48.3",
+            "dataAlteracao": "2019-05-14T16:10:48.3"
+        }
+    },
+    {
+        "funcionarioId": 16,
+        "nomeFuncionario": "Mauro Airoldi",
+        "cargoId": 201,
+        "cargo": "CRI",
+        "dataCriacao": "2019-05-14T16:10:48.357",
+        "dataAlteracao": "2019-05-14T16:10:48.357",
+        "usuarioId": 20,
+        "usuario": {
+            "usuarioId": 20,
+            "email": "mauro@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:10:48.34",
+            "dataAlteracao": "2019-05-14T16:10:48.34"
+        }
+    },
+    {
+        "funcionarioId": 17,
+        "nomeFuncionario": "Marta Isabel Nobrega Bonicontro",
+        "cargoId": 201,
+        "cargo": "CRI",
+        "dataCriacao": "2019-05-14T16:10:49.193",
+        "dataAlteracao": "2019-05-14T16:10:49.193",
+        "usuarioId": 21,
+        "usuario": {
+            "usuarioId": 21,
+            "email": "marta.isabel@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:10:49.177",
+            "dataAlteracao": "2019-05-14T16:10:49.177"
+        }
+    },
+    {
+        "funcionarioId": 18,
+        "nomeFuncionario": "Abilio José Weber",
+        "cargoId": 200,
+        "cargo": "Diretor",
+        "dataCriacao": "2019-05-14T16:10:49.957",
+        "dataAlteracao": "2019-05-14T16:10:49.957",
+        "usuarioId": 22,
+        "usuario": {
+            "usuarioId": 22,
+            "email": "aweber@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:10:49.913",
+            "dataAlteracao": "2019-05-14T16:10:49.913"
+        }
+    },
+    {
+        "funcionarioId": 19,
+        "nomeFuncionario": "Reginaldo Saldes Costa",
+        "cargoId": 201,
+        "cargo": "CRI",
+        "dataCriacao": "2019-05-14T16:10:50.017",
+        "dataAlteracao": "2019-05-14T16:10:50.017",
+        "usuarioId": 23,
+        "usuario": {
+            "usuarioId": 23,
+            "email": "rcosta@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:10:49.993",
+            "dataAlteracao": "2019-05-14T16:10:49.993"
+        }
+    },
+    {
+        "funcionarioId": 20,
+        "nomeFuncionario": "Jose Heroino de Souza",
+        "cargoId": 200,
+        "cargo": "Diretor",
+        "dataCriacao": "2019-05-14T16:10:50.853",
+        "dataAlteracao": "2019-05-14T16:10:50.853",
+        "usuarioId": 24,
+        "usuario": {
+            "usuarioId": 24,
+            "email": "jheroino@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:10:50.833",
+            "dataAlteracao": "2019-05-14T16:10:50.833"
+        }
+    },
+    {
+        "funcionarioId": 21,
+        "nomeFuncionario": "Tiago Guerreiro Ferreira ",
+        "cargoId": 201,
+        "cargo": "CRI",
+        "dataCriacao": "2019-05-14T16:10:50.89",
+        "dataAlteracao": "2019-05-14T16:10:50.89",
+        "usuarioId": 25,
+        "usuario": {
+            "usuarioId": 25,
+            "email": "guerreiro.tiago@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:10:50.877",
+            "dataAlteracao": "2019-05-14T16:10:50.877"
+        }
+    },
+    {
+        "funcionarioId": 22,
+        "nomeFuncionario": "João Domingos Chiari Sanches",
+        "cargoId": 200,
+        "cargo": "Diretor",
+        "dataCriacao": "2019-05-14T16:10:51.58",
+        "dataAlteracao": "2019-05-14T16:10:51.58",
+        "usuarioId": 26,
+        "usuario": {
+            "usuarioId": 26,
+            "email": "jsanchez@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:10:51.557",
+            "dataAlteracao": "2019-05-14T16:10:51.557"
+        }
+    },
+    {
+        "funcionarioId": 23,
+        "nomeFuncionario": "Jefferson Gandolfi Feitosa",
+        "cargoId": 201,
+        "cargo": "CRI",
+        "dataCriacao": "2019-05-14T16:10:51.627",
+        "dataAlteracao": "2019-05-14T16:10:51.627",
+        "usuarioId": 27,
+        "usuario": {
+            "usuarioId": 27,
+            "email": "feitosa@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:10:51.607",
+            "dataAlteracao": "2019-05-14T16:10:51.607"
+        }
+    },
+    {
+        "funcionarioId": 24,
+        "nomeFuncionario": "Elcio de Sousa",
+        "cargoId": 200,
+        "cargo": "Diretor",
+        "dataCriacao": "2019-05-14T16:10:52.357",
+        "dataAlteracao": "2019-05-14T16:10:52.357",
+        "usuarioId": 28,
+        "usuario": {
+            "usuarioId": 28,
+            "email": "elcio@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:10:52.343",
+            "dataAlteracao": "2019-05-14T16:10:52.343"
+        }
+    },
+    {
+        "funcionarioId": 25,
+        "nomeFuncionario": "Fabiana Santos Gomes",
+        "cargoId": 201,
+        "cargo": "CRI",
+        "dataCriacao": "2019-05-14T16:10:52.4",
+        "dataAlteracao": "2019-05-14T16:10:52.4",
+        "usuarioId": 29,
+        "usuario": {
+            "usuarioId": 29,
+            "email": "fgomes@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:10:52.383",
+            "dataAlteracao": "2019-05-14T16:10:52.383"
+        }
+    },
+    {
+        "funcionarioId": 26,
+        "nomeFuncionario": "Carlos Alberto Pereira Coelho",
+        "cargoId": 200,
+        "cargo": "Diretor",
+        "dataCriacao": "2019-05-14T16:10:53.81",
+        "dataAlteracao": "2019-05-14T16:10:53.81",
+        "usuarioId": 30,
+        "usuario": {
+            "usuarioId": 30,
+            "email": "capcoelho@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:10:53.793",
+            "dataAlteracao": "2019-05-14T16:10:53.793"
+        }
+    },
+    {
+        "funcionarioId": 27,
+        "nomeFuncionario": "Jairo Cesar Topan",
+        "cargoId": 201,
+        "cargo": "CRI",
+        "dataCriacao": "2019-05-14T16:10:53.893",
+        "dataAlteracao": "2019-05-14T16:10:53.893",
+        "usuarioId": 31,
+        "usuario": {
+            "usuarioId": 31,
+            "email": "jtopan@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:10:53.87",
+            "dataAlteracao": "2019-05-14T16:10:53.87"
+        }
+    },
+    {
+        "funcionarioId": 28,
+        "nomeFuncionario": "Itamar Rodrigues Cruz",
+        "cargoId": 200,
+        "cargo": "Diretor",
+        "dataCriacao": "2019-05-14T16:10:54.787",
+        "dataAlteracao": "2019-05-14T16:10:54.787",
+        "usuarioId": 32,
+        "usuario": {
+            "usuarioId": 32,
+            "email": "itammar@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:10:54.767",
+            "dataAlteracao": "2019-05-14T16:10:54.767"
+        }
+    },
+    {
+        "funcionarioId": 29,
+        "nomeFuncionario": "Jose Trettel Junior ",
+        "cargoId": 201,
+        "cargo": "CRI",
+        "dataCriacao": "2019-05-14T16:10:54.827",
+        "dataAlteracao": "2019-05-14T16:10:54.827",
+        "usuarioId": 33,
+        "usuario": {
+            "usuarioId": 33,
+            "email": "jtrettel@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:10:54.81",
+            "dataAlteracao": "2019-05-14T16:10:54.81"
+        }
+    },
+    {
+        "funcionarioId": 30,
+        "nomeFuncionario": "Jorge José Nunes",
+        "cargoId": 200,
+        "cargo": "Diretor",
+        "dataCriacao": "2019-05-14T16:10:55.647",
+        "dataAlteracao": "2019-05-14T16:10:55.647",
+        "usuarioId": 34,
+        "usuario": {
+            "usuarioId": 34,
+            "email": "jorgen@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:10:55.63",
+            "dataAlteracao": "2019-05-14T16:10:55.63"
+        }
+    },
+    {
+        "funcionarioId": 31,
+        "nomeFuncionario": "Paulo Marcondes De Brito",
+        "cargoId": 201,
+        "cargo": "CRI",
+        "dataCriacao": "2019-05-14T16:10:55.72",
+        "dataAlteracao": "2019-05-14T16:10:55.72",
+        "usuarioId": 35,
+        "usuario": {
+            "usuarioId": 35,
+            "email": "paulobrito@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:10:55.707",
+            "dataAlteracao": "2019-05-14T16:10:55.707"
+        }
+    },
+    {
+        "funcionarioId": 32,
+        "nomeFuncionario": "Edislon Rafael Milaré",
+        "cargoId": 200,
+        "cargo": "Diretor",
+        "dataCriacao": "2019-05-14T16:10:56.547",
+        "dataAlteracao": "2019-05-14T16:10:56.547",
+        "usuarioId": 36,
+        "usuario": {
+            "usuarioId": 36,
+            "email": "emilare@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:10:56.527",
+            "dataAlteracao": "2019-05-14T16:10:56.527"
+        }
+    },
+    {
+        "funcionarioId": 33,
+        "nomeFuncionario": "Carlos Alberto Marchioli",
+        "cargoId": 201,
+        "cargo": "CRI",
+        "dataCriacao": "2019-05-14T16:10:56.587",
+        "dataAlteracao": "2019-05-14T16:10:56.587",
+        "usuarioId": 37,
+        "usuario": {
+            "usuarioId": 37,
+            "email": "cmarchioli@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:10:56.573",
+            "dataAlteracao": "2019-05-14T16:10:56.573"
+        }
+    },
+    {
+        "funcionarioId": 34,
+        "nomeFuncionario": "Claudemir Facco de Oliveira",
+        "cargoId": 200,
+        "cargo": "Diretor",
+        "dataCriacao": "2019-05-14T16:10:57.437",
+        "dataAlteracao": "2019-05-14T16:10:57.437",
+        "usuarioId": 38,
+        "usuario": {
+            "usuarioId": 38,
+            "email": "claudemiroliveira@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:10:57.423",
+            "dataAlteracao": "2019-05-14T16:10:57.423"
+        }
+    },
+    {
+        "funcionarioId": 35,
+        "nomeFuncionario": "Marcelo Aparecido Beloto",
+        "cargoId": 201,
+        "cargo": "CRI",
+        "dataCriacao": "2019-05-14T16:10:57.477",
+        "dataAlteracao": "2019-05-14T16:10:57.477",
+        "usuarioId": 39,
+        "usuario": {
+            "usuarioId": 39,
+            "email": "mbeloto@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:10:57.463",
+            "dataAlteracao": "2019-05-14T16:10:57.463"
+        }
+    },
+    {
+        "funcionarioId": 36,
+        "nomeFuncionario": "Marco Antonio Chagas",
+        "cargoId": 200,
+        "cargo": "Diretor",
+        "dataCriacao": "2019-05-14T16:10:58.173",
+        "dataAlteracao": "2019-05-14T16:10:58.173",
+        "usuarioId": 40,
+        "usuario": {
+            "usuarioId": 40,
+            "email": "mchagas@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:10:58.157",
+            "dataAlteracao": "2019-05-14T16:10:58.157"
+        }
+    },
+    {
+        "funcionarioId": 37,
+        "nomeFuncionario": "Ulisses Vieira De Morais Junior",
+        "cargoId": 201,
+        "cargo": "CRI",
+        "dataCriacao": "2019-05-14T16:10:58.243",
+        "dataAlteracao": "2019-05-14T16:10:58.243",
+        "usuarioId": 41,
+        "usuario": {
+            "usuarioId": 41,
+            "email": "ulisses.junior@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:10:58.21",
+            "dataAlteracao": "2019-05-14T16:10:58.21"
+        }
+    },
+    {
+        "funcionarioId": 38,
+        "nomeFuncionario": "Renato Daracdjian",
+        "cargoId": 200,
+        "cargo": "Diretor",
+        "dataCriacao": "2019-05-14T16:10:59.08",
+        "dataAlteracao": "2019-05-14T16:10:59.08",
+        "usuarioId": 42,
+        "usuario": {
+            "usuarioId": 42,
+            "email": "rdaracdjian@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:10:59.033",
+            "dataAlteracao": "2019-05-14T16:10:59.033"
+        }
+    },
+    {
+        "funcionarioId": 39,
+        "nomeFuncionario": "Wesley Tomaz Gomes dos Reis",
+        "cargoId": 201,
+        "cargo": "CRI",
+        "dataCriacao": "2019-05-14T16:10:59.12",
+        "dataAlteracao": "2019-05-14T16:10:59.12",
+        "usuarioId": 43,
+        "usuario": {
+            "usuarioId": 43,
+            "email": "wreis@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:10:59.107",
+            "dataAlteracao": "2019-05-14T16:10:59.107"
+        }
+    },
+    {
+        "funcionarioId": 40,
+        "nomeFuncionario": "Osvaldo Luiz Padovan",
+        "cargoId": 200,
+        "cargo": "Diretor",
+        "dataCriacao": "2019-05-14T16:10:59.993",
+        "dataAlteracao": "2019-05-14T16:10:59.993",
+        "usuarioId": 44,
+        "usuario": {
+            "usuarioId": 44,
+            "email": "opadovan@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:10:59.977",
+            "dataAlteracao": "2019-05-14T16:10:59.977"
+        }
+    },
+    {
+        "funcionarioId": 41,
+        "nomeFuncionario": "Evandro Campara",
+        "cargoId": 201,
+        "cargo": "CRI",
+        "dataCriacao": "2019-05-14T16:11:00.033",
+        "dataAlteracao": "2019-05-14T16:11:00.033",
+        "usuarioId": 45,
+        "usuario": {
+            "usuarioId": 45,
+            "email": "ecampara@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:11:00.02",
+            "dataAlteracao": "2019-05-14T16:11:00.02"
+        }
+    },
+    {
+        "funcionarioId": 42,
+        "nomeFuncionario": "Antono Carlos Lago Machado ",
+        "cargoId": 200,
+        "cargo": "Diretor",
+        "dataCriacao": "2019-05-14T16:11:01.36",
+        "dataAlteracao": "2019-05-14T16:11:01.36",
+        "usuarioId": 46,
+        "usuario": {
+            "usuarioId": 46,
+            "email": "amachado@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:11:01.343",
+            "dataAlteracao": "2019-05-14T16:11:01.343"
+        }
+    },
+    {
+        "funcionarioId": 43,
+        "nomeFuncionario": "Fabiola Cristina Vicente Felix Manzan",
+        "cargoId": 201,
+        "cargo": "CRI",
+        "dataCriacao": "2019-05-14T16:11:01.397",
+        "dataAlteracao": "2019-05-14T16:11:01.397",
+        "usuarioId": 47,
+        "usuario": {
+            "usuarioId": 47,
+            "email": "fabiola.manzan@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:11:01.383",
+            "dataAlteracao": "2019-05-14T16:11:01.383"
+        }
+    },
+    {
+        "funcionarioId": 44,
+        "nomeFuncionario": "Paulo Roberto De Brito",
+        "cargoId": 201,
+        "cargo": "CRI",
+        "dataCriacao": "2019-05-14T16:11:02.23",
+        "dataAlteracao": "2019-05-14T16:11:02.23",
+        "usuarioId": 48,
+        "usuario": {
+            "usuarioId": 48,
+            "email": "pbrito@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:11:02.213",
+            "dataAlteracao": "2019-05-14T16:11:02.213"
+        }
+    },
+    {
+        "funcionarioId": 45,
+        "nomeFuncionario": "José Jorge de Andrade",
+        "cargoId": 200,
+        "cargo": "Diretor",
+        "dataCriacao": "2019-05-14T16:11:02.947",
+        "dataAlteracao": "2019-05-14T16:11:02.947",
+        "usuarioId": 49,
+        "usuario": {
+            "usuarioId": 49,
+            "email": "jorge@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:11:02.93",
+            "dataAlteracao": "2019-05-14T16:11:02.93"
+        }
+    },
+    {
+        "funcionarioId": 46,
+        "nomeFuncionario": "Ricardo Saugo Lima",
+        "cargoId": 201,
+        "cargo": "CRI",
+        "dataCriacao": "2019-05-14T16:11:02.99",
+        "dataAlteracao": "2019-05-14T16:11:02.99",
+        "usuarioId": 50,
+        "usuario": {
+            "usuarioId": 50,
+            "email": "ricardolima@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:11:02.973",
+            "dataAlteracao": "2019-05-14T16:11:02.973"
+        }
+    },
+    {
+        "funcionarioId": 47,
+        "nomeFuncionario": "Susane Schmieg",
+        "cargoId": 201,
+        "cargo": "CRI",
+        "dataCriacao": "2019-05-14T16:11:03.81",
+        "dataAlteracao": "2019-05-14T16:11:03.81",
+        "usuarioId": 51,
+        "usuario": {
+            "usuarioId": 51,
+            "email": "susi@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:11:03.797",
+            "dataAlteracao": "2019-05-14T16:11:03.797"
+        }
+    },
+    {
+        "funcionarioId": 48,
+        "nomeFuncionario": "Edson Lemes",
+        "cargoId": 201,
+        "cargo": "CRI",
+        "dataCriacao": "2019-05-14T16:11:04.68",
+        "dataAlteracao": "2019-05-14T16:11:04.68",
+        "usuarioId": 52,
+        "usuario": {
+            "usuarioId": 52,
+            "email": "edson.lemes@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:11:04.63",
+            "dataAlteracao": "2019-05-14T16:11:04.63"
+        }
+    },
+    {
+        "funcionarioId": 49,
+        "nomeFuncionario": "Patricia Fernandes Pera",
+        "cargoId": 201,
+        "cargo": "CRI",
+        "dataCriacao": "2019-05-14T16:11:05.44",
+        "dataAlteracao": "2019-05-14T16:11:05.44",
+        "usuarioId": 53,
+        "usuario": {
+            "usuarioId": 53,
+            "email": "patricia.salvador@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:11:05.423",
+            "dataAlteracao": "2019-05-14T16:11:05.423"
+        }
+    },
+    {
+        "funcionarioId": 50,
+        "nomeFuncionario": "Milton Cesar Bomche",
+        "cargoId": 201,
+        "cargo": "CRI",
+        "dataCriacao": "2019-05-14T16:11:06.337",
+        "dataAlteracao": "2019-05-14T16:11:06.337",
+        "usuarioId": 54,
+        "usuario": {
+            "usuarioId": 54,
+            "email": "mbomche@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:11:06.32",
+            "dataAlteracao": "2019-05-14T16:11:06.32"
+        }
+    },
+    {
+        "funcionarioId": 51,
+        "nomeFuncionario": "Alessandro Simao",
+        "cargoId": 201,
+        "cargo": "CRI",
+        "dataCriacao": "2019-05-14T16:11:07.077",
+        "dataAlteracao": "2019-05-14T16:11:07.077",
+        "usuarioId": 55,
+        "usuario": {
+            "usuarioId": 55,
+            "email": "asimao@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:11:07.06",
+            "dataAlteracao": "2019-05-14T16:11:07.06"
+        }
+    },
+    {
+        "funcionarioId": 52,
+        "nomeFuncionario": "Alexssandro Augusto Reginato",
+        "cargoId": 200,
+        "cargo": "Diretor",
+        "dataCriacao": "2019-05-14T16:11:07.747",
+        "dataAlteracao": "2019-05-14T16:11:07.747",
+        "usuarioId": 56,
+        "usuario": {
+            "usuarioId": 56,
+            "email": "areginato@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:11:07.73",
+            "dataAlteracao": "2019-05-14T16:11:07.73"
+        }
+    },
+    {
+        "funcionarioId": 53,
+        "nomeFuncionario": "Monica Santana Marques De Oliveira",
+        "cargoId": 201,
+        "cargo": "CRI",
+        "dataCriacao": "2019-05-14T16:11:07.797",
+        "dataAlteracao": "2019-05-14T16:11:07.797",
+        "usuarioId": 57,
+        "usuario": {
+            "usuarioId": 57,
+            "email": "moliveira@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:11:07.783",
+            "dataAlteracao": "2019-05-14T16:11:07.783"
+        }
+    },
+    {
+        "funcionarioId": 54,
+        "nomeFuncionario": "Marcos Cardozo Pereira",
+        "cargoId": 200,
+        "cargo": "Diretor",
+        "dataCriacao": "2019-05-14T16:11:09.99",
+        "dataAlteracao": "2019-05-14T16:11:09.99",
+        "usuarioId": 58,
+        "usuario": {
+            "usuarioId": 58,
+            "email": "cardozo@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:11:09.967",
+            "dataAlteracao": "2019-05-14T16:11:09.967"
+        }
+    },
+    {
+        "funcionarioId": 55,
+        "nomeFuncionario": "Tatiane De Oliveira Franco ",
+        "cargoId": 201,
+        "cargo": "CRI",
+        "dataCriacao": "2019-05-14T16:11:10.04",
+        "dataAlteracao": "2019-05-14T16:11:10.04",
+        "usuarioId": 59,
+        "usuario": {
+            "usuarioId": 59,
+            "email": "tatiane.franco@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:11:10.017",
+            "dataAlteracao": "2019-05-14T16:11:10.017"
+        }
+    },
+    {
+        "funcionarioId": 56,
+        "nomeFuncionario": "Carlos Alberto Gomes",
+        "cargoId": 200,
+        "cargo": "Diretor",
+        "dataCriacao": "2019-05-14T16:11:11.48",
+        "dataAlteracao": "2019-05-14T16:11:11.48",
+        "usuarioId": 60,
+        "usuario": {
+            "usuarioId": 60,
+            "email": "cgomes@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:11:11.463",
+            "dataAlteracao": "2019-05-14T16:11:11.463"
+        }
+    },
+    {
+        "funcionarioId": 57,
+        "nomeFuncionario": "Lucia Ferreira Fernandes",
+        "cargoId": 201,
+        "cargo": "CRI",
+        "dataCriacao": "2019-05-14T16:11:11.533",
+        "dataAlteracao": "2019-05-14T16:11:11.533",
+        "usuarioId": 61,
+        "usuario": {
+            "usuarioId": 61,
+            "email": "lucia.fernandes@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:11:11.513",
+            "dataAlteracao": "2019-05-14T16:11:11.513"
+        }
+    },
+    {
+        "funcionarioId": 58,
+        "nomeFuncionario": "Fernando Manoel Gonlçalves",
+        "cargoId": 200,
+        "cargo": "Diretor",
+        "dataCriacao": "2019-05-14T16:11:12.147",
+        "dataAlteracao": "2019-05-14T16:11:12.147",
+        "usuarioId": 62,
+        "usuario": {
+            "usuarioId": 62,
+            "email": "fgoncalv@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:11:12.127",
+            "dataAlteracao": "2019-05-14T16:11:12.127"
+        }
+    },
+    {
+        "funcionarioId": 59,
+        "nomeFuncionario": "Sabrina Simoes Machado Serapiao",
+        "cargoId": 201,
+        "cargo": "CRI",
+        "dataCriacao": "2019-05-14T16:11:12.19",
+        "dataAlteracao": "2019-05-14T16:11:12.19",
+        "usuarioId": 63,
+        "usuario": {
+            "usuarioId": 63,
+            "email": "sserapiao@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:11:12.173",
+            "dataAlteracao": "2019-05-14T16:11:12.173"
+        }
+    },
+    {
+        "funcionarioId": 60,
+        "nomeFuncionario": "Antonio Carlos Pontieri",
+        "cargoId": 200,
+        "cargo": "Diretor",
+        "dataCriacao": "2019-05-14T16:11:12.877",
+        "dataAlteracao": "2019-05-14T16:11:12.877",
+        "usuarioId": 64,
+        "usuario": {
+            "usuarioId": 64,
+            "email": "apontieri@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:11:12.863",
+            "dataAlteracao": "2019-05-14T16:11:12.863"
+        }
+    },
+    {
+        "funcionarioId": 61,
+        "nomeFuncionario": "Ana Lucia Almeida Dos Santos Cursino",
+        "cargoId": 201,
+        "cargo": "CRI",
+        "dataCriacao": "2019-05-14T16:11:12.92",
+        "dataAlteracao": "2019-05-14T16:11:12.92",
+        "usuarioId": 65,
+        "usuario": {
+            "usuarioId": 65,
+            "email": "acursino@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:11:12.907",
+            "dataAlteracao": "2019-05-14T16:11:12.907"
+        }
+    },
+    {
+        "funcionarioId": 62,
+        "nomeFuncionario": "Carlos Ortunho Serra",
+        "cargoId": 200,
+        "cargo": "Diretor",
+        "dataCriacao": "2019-05-14T16:11:13.557",
+        "dataAlteracao": "2019-05-14T16:11:13.557",
+        "usuarioId": 66,
+        "usuario": {
+            "usuarioId": 66,
+            "email": "cserra@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:11:13.54",
+            "dataAlteracao": "2019-05-14T16:11:13.54"
+        }
+    },
+    {
+        "funcionarioId": 63,
+        "nomeFuncionario": "Gisele Da Silva Fonseca",
+        "cargoId": 201,
+        "cargo": "CRI",
+        "dataCriacao": "2019-05-14T16:11:13.613",
+        "dataAlteracao": "2019-05-14T16:11:13.613",
+        "usuarioId": 67,
+        "usuario": {
+            "usuarioId": 67,
+            "email": "gisele@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:11:13.587",
+            "dataAlteracao": "2019-05-14T16:11:13.587"
+        }
+    },
+    {
+        "funcionarioId": 64,
+        "nomeFuncionario": "Paulo Sergio Torino",
+        "cargoId": 200,
+        "cargo": "Diretor",
+        "dataCriacao": "2019-05-14T16:11:14.273",
+        "dataAlteracao": "2019-05-14T16:11:14.273",
+        "usuarioId": 68,
+        "usuario": {
+            "usuarioId": 68,
+            "email": "ptorino@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:11:14.25",
+            "dataAlteracao": "2019-05-14T16:11:14.25"
+        }
+    },
+    {
+        "funcionarioId": 65,
+        "nomeFuncionario": "Franco Paschetta Filho",
+        "cargoId": 201,
+        "cargo": "CRI",
+        "dataCriacao": "2019-05-14T16:11:14.353",
+        "dataAlteracao": "2019-05-14T16:11:14.353",
+        "usuarioId": 69,
+        "usuario": {
+            "usuarioId": 69,
+            "email": "franco@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:11:14.33",
+            "dataAlteracao": "2019-05-14T16:11:14.33"
+        }
+    },
+    {
+        "funcionarioId": 66,
+        "nomeFuncionario": "Jorge Luis Dolcinotti",
+        "cargoId": 200,
+        "cargo": "Diretor",
+        "dataCriacao": "2019-05-14T16:11:15.06",
+        "dataAlteracao": "2019-05-14T16:11:15.06",
+        "usuarioId": 70,
+        "usuario": {
+            "usuarioId": 70,
+            "email": "jdolcino@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:11:15.037",
+            "dataAlteracao": "2019-05-14T16:11:15.037"
+        }
+    },
+    {
+        "funcionarioId": 67,
+        "nomeFuncionario": "Rosimary Da Silva",
+        "cargoId": 201,
+        "cargo": "CRI",
+        "dataCriacao": "2019-05-14T16:11:15.117",
+        "dataAlteracao": "2019-05-14T16:11:15.117",
+        "usuarioId": 71,
+        "usuario": {
+            "usuarioId": 71,
+            "email": "rosimary@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:11:15.1",
+            "dataAlteracao": "2019-05-14T16:11:15.1"
+        }
+    },
+    {
+        "funcionarioId": 68,
+        "nomeFuncionario": "Helvécio Siqueira de Oliveira",
+        "cargoId": 200,
+        "cargo": "Diretor",
+        "dataCriacao": "2019-05-14T16:11:16.077",
+        "dataAlteracao": "2019-05-14T16:11:16.077",
+        "usuarioId": 72,
+        "usuario": {
+            "usuarioId": 72,
+            "email": "helvecio@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:11:15.99",
+            "dataAlteracao": "2019-05-14T16:11:15.99"
+        }
+    },
+    {
+        "funcionarioId": 69,
+        "nomeFuncionario": "Josimeire Souza Leite",
+        "cargoId": 201,
+        "cargo": "CRI",
+        "dataCriacao": "2019-05-14T16:11:16.163",
+        "dataAlteracao": "2019-05-14T16:11:16.163",
+        "usuarioId": 73,
+        "usuario": {
+            "usuarioId": 73,
+            "email": "josimeire@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:11:16.147",
+            "dataAlteracao": "2019-05-14T16:11:16.147"
+        }
+    },
+    {
+        "funcionarioId": 70,
+        "nomeFuncionario": "Jocilei Oliveira ",
+        "cargoId": 200,
+        "cargo": "Diretor",
+        "dataCriacao": "2019-05-14T16:11:16.953",
+        "dataAlteracao": "2019-05-14T16:11:16.953",
+        "usuarioId": 74,
+        "usuario": {
+            "usuarioId": 74,
+            "email": "joliveira@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:11:16.927",
+            "dataAlteracao": "2019-05-14T16:11:16.927"
+        }
+    },
+    {
+        "funcionarioId": 71,
+        "nomeFuncionario": "Joao Carlos Campagnolo",
+        "cargoId": 201,
+        "cargo": "CRI",
+        "dataCriacao": "2019-05-14T16:11:17.017",
+        "dataAlteracao": "2019-05-14T16:11:17.017",
+        "usuarioId": 75,
+        "usuario": {
+            "usuarioId": 75,
+            "email": "jcampagnolo@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:11:16.99",
+            "dataAlteracao": "2019-05-14T16:11:16.99"
+        }
+    },
+    {
+        "funcionarioId": 72,
+        "nomeFuncionario": "Adriano Ruiz Secco",
+        "cargoId": 200,
+        "cargo": "Diretor",
+        "dataCriacao": "2019-05-14T16:11:17.703",
+        "dataAlteracao": "2019-05-14T16:11:17.703",
+        "usuarioId": 76,
+        "usuario": {
+            "usuarioId": 76,
+            "email": "asecco@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:11:17.68",
+            "dataAlteracao": "2019-05-14T16:11:17.68"
+        }
+    },
+    {
+        "funcionarioId": 73,
+        "nomeFuncionario": "Nilton Santo Malara ",
+        "cargoId": 201,
+        "cargo": "CRI",
+        "dataCriacao": "2019-05-14T16:11:17.77",
+        "dataAlteracao": "2019-05-14T16:11:17.77",
+        "usuarioId": 77,
+        "usuario": {
+            "usuarioId": 77,
+            "email": "nmalara@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:11:17.737",
+            "dataAlteracao": "2019-05-14T16:11:17.737"
+        }
+    },
+    {
+        "funcionarioId": 74,
+        "nomeFuncionario": "Everson de Aro Capobianco",
+        "cargoId": 200,
+        "cargo": "Diretor",
+        "dataCriacao": "2019-05-14T16:11:20.107",
+        "dataAlteracao": "2019-05-14T16:11:20.107",
+        "usuarioId": 78,
+        "usuario": {
+            "usuarioId": 78,
+            "email": "capobianco@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:11:20.083",
+            "dataAlteracao": "2019-05-14T16:11:20.083"
+        }
+    },
+    {
+        "funcionarioId": 75,
+        "nomeFuncionario": "Marcelo Gozeloto",
+        "cargoId": 201,
+        "cargo": "CRI",
+        "dataCriacao": "2019-05-14T16:11:20.15",
+        "dataAlteracao": "2019-05-14T16:11:20.15",
+        "usuarioId": 79,
+        "usuario": {
+            "usuarioId": 79,
+            "email": "marcelo.gozeloto@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:11:20.133",
+            "dataAlteracao": "2019-05-14T16:11:20.133"
+        }
+    },
+    {
+        "funcionarioId": 76,
+        "nomeFuncionario": "Fabio Sergio Carrion",
+        "cargoId": 200,
+        "cargo": "Diretor",
+        "dataCriacao": "2019-05-14T16:11:20.923",
+        "dataAlteracao": "2019-05-14T16:11:20.923",
+        "usuarioId": 80,
+        "usuario": {
+            "usuarioId": 80,
+            "email": "fcarrion@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:11:20.907",
+            "dataAlteracao": "2019-05-14T16:11:20.907"
+        }
+    },
+    {
+        "funcionarioId": 77,
+        "nomeFuncionario": "Valdemir Perez Correa",
+        "cargoId": 201,
+        "cargo": "CRI",
+        "dataCriacao": "2019-05-14T16:11:20.997",
+        "dataAlteracao": "2019-05-14T16:11:20.997",
+        "usuarioId": 81,
+        "usuario": {
+            "usuarioId": 81,
+            "email": "vcorrea@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:11:20.983",
+            "dataAlteracao": "2019-05-14T16:11:20.983"
+        }
+    },
+    {
+        "funcionarioId": 78,
+        "nomeFuncionario": "Wilson Antonio Rensi",
+        "cargoId": 200,
+        "cargo": "Diretor",
+        "dataCriacao": "2019-05-14T16:11:21.72",
+        "dataAlteracao": "2019-05-14T16:11:21.72",
+        "usuarioId": 82,
+        "usuario": {
+            "usuarioId": 82,
+            "email": "wrensi@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:11:21.703",
+            "dataAlteracao": "2019-05-14T16:11:21.703"
+        }
+    },
+    {
+        "funcionarioId": 79,
+        "nomeFuncionario": "Marcos Wagner Gozzo ",
+        "cargoId": 201,
+        "cargo": "CRI",
+        "dataCriacao": "2019-05-14T16:11:21.773",
+        "dataAlteracao": "2019-05-14T16:11:21.773",
+        "usuarioId": 83,
+        "usuario": {
+            "usuarioId": 83,
+            "email": "marcosw@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:11:21.757",
+            "dataAlteracao": "2019-05-14T16:11:21.757"
+        }
+    },
+    {
+        "funcionarioId": 80,
+        "nomeFuncionario": "Mário Eduardo Cazão",
+        "cargoId": 200,
+        "cargo": "Diretor",
+        "dataCriacao": "2019-05-14T16:11:22.527",
+        "dataAlteracao": "2019-05-14T16:11:22.527",
+        "usuarioId": 84,
+        "usuario": {
+            "usuarioId": 84,
+            "email": "mcazao@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:11:22.513",
+            "dataAlteracao": "2019-05-14T16:11:22.513"
+        }
+    },
+    {
+        "funcionarioId": 81,
+        "nomeFuncionario": "Edvaldo Antonio De Oliveira ",
+        "cargoId": 201,
+        "cargo": "CRI",
+        "dataCriacao": "2019-05-14T16:11:22.57",
+        "dataAlteracao": "2019-05-14T16:11:22.57",
+        "usuarioId": 85,
+        "usuario": {
+            "usuarioId": 85,
+            "email": "edvaldo.oliveira@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:11:22.557",
+            "dataAlteracao": "2019-05-14T16:11:22.557"
+        }
+    },
+    {
+        "funcionarioId": 82,
+        "nomeFuncionario": "Marcelo Costa",
+        "cargoId": 200,
+        "cargo": "Diretor",
+        "dataCriacao": "2019-05-14T16:11:23.303",
+        "dataAlteracao": "2019-05-14T16:11:23.303",
+        "usuarioId": 86,
+        "usuario": {
+            "usuarioId": 86,
+            "email": "marcelo.costa@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:11:23.287",
+            "dataAlteracao": "2019-05-14T16:11:23.287"
+        }
+    },
+    {
+        "funcionarioId": 83,
+        "nomeFuncionario": "Carlos Alberto Dal Ri",
+        "cargoId": 201,
+        "cargo": "CRI",
+        "dataCriacao": "2019-05-14T16:11:23.35",
+        "dataAlteracao": "2019-05-14T16:11:23.35",
+        "usuarioId": 87,
+        "usuario": {
+            "usuarioId": 87,
+            "email": "dalri@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:11:23.327",
+            "dataAlteracao": "2019-05-14T16:11:23.327"
+        }
+    },
+    {
+        "funcionarioId": 84,
+        "nomeFuncionario": "Marcelo Virgilio",
+        "cargoId": 200,
+        "cargo": "Diretor",
+        "dataCriacao": "2019-05-14T16:11:24.037",
+        "dataAlteracao": "2019-05-14T16:11:24.037",
+        "usuarioId": 88,
+        "usuario": {
+            "usuarioId": 88,
+            "email": "mvirgilio@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:11:24.023",
+            "dataAlteracao": "2019-05-14T16:11:24.023"
+        }
+    },
+    {
+        "funcionarioId": 85,
+        "nomeFuncionario": "Rildon Maffi ",
+        "cargoId": 201,
+        "cargo": "CRI",
+        "dataCriacao": "2019-05-14T16:11:24.077",
+        "dataAlteracao": "2019-05-14T16:11:24.077",
+        "usuarioId": 89,
+        "usuario": {
+            "usuarioId": 89,
+            "email": "rildon@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:11:24.063",
+            "dataAlteracao": "2019-05-14T16:11:24.063"
+        }
+    },
+    {
+        "funcionarioId": 86,
+        "nomeFuncionario": "Eduardo Bonatti",
+        "cargoId": 201,
+        "cargo": "CRI",
+        "dataCriacao": "2019-05-14T16:11:24.75",
+        "dataAlteracao": "2019-05-14T16:11:24.75",
+        "usuarioId": 90,
+        "usuario": {
+            "usuarioId": 90,
+            "email": "ebonatti@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:11:24.73",
+            "dataAlteracao": "2019-05-14T16:11:24.73"
+        }
+    },
+    {
+        "funcionarioId": 87,
+        "nomeFuncionario": "Eniceli R. Moraes Pinto",
+        "cargoId": 200,
+        "cargo": "Diretor",
+        "dataCriacao": "2019-05-14T16:11:25.46",
+        "dataAlteracao": "2019-05-14T16:11:25.46",
+        "usuarioId": 91,
+        "usuario": {
+            "usuarioId": 91,
+            "email": "eniceli@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:11:25.447",
+            "dataAlteracao": "2019-05-14T16:11:25.447"
+        }
+    },
+    {
+        "funcionarioId": 88,
+        "nomeFuncionario": "Pedro Marques De Seixas Pereira",
+        "cargoId": 201,
+        "cargo": "CRI",
+        "dataCriacao": "2019-05-14T16:11:25.51",
+        "dataAlteracao": "2019-05-14T16:11:25.51",
+        "usuarioId": 92,
+        "usuario": {
+            "usuarioId": 92,
+            "email": "pedro.pereira@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:11:25.487",
+            "dataAlteracao": "2019-05-14T16:11:25.487"
+        }
+    },
+    {
+        "funcionarioId": 89,
+        "nomeFuncionario": "Tomás Marcelo Martins Leite",
+        "cargoId": 200,
+        "cargo": "Diretor",
+        "dataCriacao": "2019-05-14T16:11:27.663",
+        "dataAlteracao": "2019-05-14T16:11:27.663",
+        "usuarioId": 93,
+        "usuario": {
+            "usuarioId": 93,
+            "email": "tleite@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:11:27.633",
+            "dataAlteracao": "2019-05-14T16:11:27.633"
+        }
+    },
+    {
+        "funcionarioId": 90,
+        "nomeFuncionario": "Luiz Henrique De Galvao Marinelo ",
+        "cargoId": 201,
+        "cargo": "CRI",
+        "dataCriacao": "2019-05-14T16:11:27.707",
+        "dataAlteracao": "2019-05-14T16:11:27.707",
+        "usuarioId": 94,
+        "usuario": {
+            "usuarioId": 94,
+            "email": "marinelo@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:11:27.69",
+            "dataAlteracao": "2019-05-14T16:11:27.69"
+        }
+    },
+    {
+        "funcionarioId": 91,
+        "nomeFuncionario": "Pedro Humberto Contieri Filho",
+        "cargoId": 200,
+        "cargo": "Diretor",
+        "dataCriacao": "2019-05-14T16:11:28.517",
+        "dataAlteracao": "2019-05-14T16:11:28.517",
+        "usuarioId": 95,
+        "usuario": {
+            "usuarioId": 95,
+            "email": "pedrocon@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:11:28.5",
+            "dataAlteracao": "2019-05-14T16:11:28.5"
+        }
+    },
+    {
+        "funcionarioId": 92,
+        "nomeFuncionario": "Carlos Eduardo Leme De Paula",
+        "cargoId": 201,
+        "cargo": "CRI",
+        "dataCriacao": "2019-05-14T16:11:28.557",
+        "dataAlteracao": "2019-05-14T16:11:28.557",
+        "usuarioId": 96,
+        "usuario": {
+            "usuarioId": 96,
+            "email": "carlos.eduardo@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:11:28.54",
+            "dataAlteracao": "2019-05-14T16:11:28.54"
+        }
+    },
+    {
+        "funcionarioId": 93,
+        "nomeFuncionario": "Sidnei Roberto Maziero Petrin",
+        "cargoId": 200,
+        "cargo": "Diretor",
+        "dataCriacao": "2019-05-14T16:11:29.94",
+        "dataAlteracao": "2019-05-14T16:11:29.94",
+        "usuarioId": 97,
+        "usuario": {
+            "usuarioId": 97,
+            "email": "spetrin@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:11:29.92",
+            "dataAlteracao": "2019-05-14T16:11:29.92"
+        }
+    },
+    {
+        "funcionarioId": 94,
+        "nomeFuncionario": "Luis Henrique Mendes De Oliveira",
+        "cargoId": 201,
+        "cargo": "CRI",
+        "dataCriacao": "2019-05-14T16:11:29.983",
+        "dataAlteracao": "2019-05-14T16:11:29.983",
+        "usuarioId": 98,
+        "usuario": {
+            "usuarioId": 98,
+            "email": "luis.oliveira@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:11:29.967",
+            "dataAlteracao": "2019-05-14T16:11:29.967"
+        }
+    },
+    {
+        "funcionarioId": 95,
+        "nomeFuncionario": "Adriano Cesar Cardoso",
+        "cargoId": 200,
+        "cargo": "Diretor",
+        "dataCriacao": "2019-05-14T16:11:30.667",
+        "dataAlteracao": "2019-05-14T16:11:30.667",
+        "usuarioId": 99,
+        "usuario": {
+            "usuarioId": 99,
+            "email": "acardoso@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:11:30.65",
+            "dataAlteracao": "2019-05-14T16:11:30.65"
+        }
+    },
+    {
+        "funcionarioId": 96,
+        "nomeFuncionario": "Karina Borzani Paiva",
+        "cargoId": 201,
+        "cargo": "CRI",
+        "dataCriacao": "2019-05-14T16:11:30.713",
+        "dataAlteracao": "2019-05-14T16:11:30.713",
+        "usuarioId": 100,
+        "usuario": {
+            "usuarioId": 100,
+            "email": "karina.borzani@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:11:30.697",
+            "dataAlteracao": "2019-05-14T16:11:30.697"
+        }
+    },
+    {
+        "funcionarioId": 97,
+        "nomeFuncionario": "Marcel Rodrigo Dota ",
+        "cargoId": 201,
+        "cargo": "CRI",
+        "dataCriacao": "2019-05-14T16:11:31.44",
+        "dataAlteracao": "2019-05-14T16:11:31.44",
+        "usuarioId": 101,
+        "usuario": {
+            "usuarioId": 101,
+            "email": "mdota@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:11:31.423",
+            "dataAlteracao": "2019-05-14T16:11:31.423"
+        }
+    },
+    {
+        "funcionarioId": 98,
+        "nomeFuncionario": "Alexandre Capelli",
+        "cargoId": 200,
+        "cargo": "Diretor",
+        "dataCriacao": "2019-05-14T16:11:32.307",
+        "dataAlteracao": "2019-05-14T16:11:32.307",
+        "usuarioId": 102,
+        "usuario": {
+            "usuarioId": 102,
+            "email": "acapelli@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:11:32.29",
+            "dataAlteracao": "2019-05-14T16:11:32.29"
+        }
+    },
+    {
+        "funcionarioId": 99,
+        "nomeFuncionario": "Camila Sampaio Avila D´Aloia",
+        "cargoId": 201,
+        "cargo": "CRI",
+        "dataCriacao": "2019-05-14T16:11:32.347",
+        "dataAlteracao": "2019-05-14T16:11:32.347",
+        "usuarioId": 103,
+        "usuario": {
+            "usuarioId": 103,
+            "email": "camila.daloia@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:11:32.333",
+            "dataAlteracao": "2019-05-14T16:11:32.333"
+        }
+    },
+    {
+        "funcionarioId": 100,
+        "nomeFuncionario": "Alexandre Barreto",
+        "cargoId": 200,
+        "cargo": "Diretor",
+        "dataCriacao": "2019-05-14T16:11:33.63",
+        "dataAlteracao": "2019-05-14T16:11:33.63",
+        "usuarioId": 104,
+        "usuario": {
+            "usuarioId": 104,
+            "email": "barreto@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:11:33.613",
+            "dataAlteracao": "2019-05-14T16:11:33.613"
+        }
+    },
+    {
+        "funcionarioId": 101,
+        "nomeFuncionario": "Devanir Guares",
+        "cargoId": 201,
+        "cargo": "CRI",
+        "dataCriacao": "2019-05-14T16:11:33.67",
+        "dataAlteracao": "2019-05-14T16:11:33.67",
+        "usuarioId": 105,
+        "usuario": {
+            "usuarioId": 105,
+            "email": "devanir.guares@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:11:33.657",
+            "dataAlteracao": "2019-05-14T16:11:33.657"
+        }
+    },
+    {
+        "funcionarioId": 102,
+        "nomeFuncionario": "Beniamino Fabio Di Gioia",
+        "cargoId": 200,
+        "cargo": "Diretor",
+        "dataCriacao": "2019-05-14T16:11:34.487",
+        "dataAlteracao": "2019-05-14T16:11:34.487",
+        "usuarioId": 106,
+        "usuario": {
+            "usuarioId": 106,
+            "email": "fabiodgioia@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:11:34.47",
+            "dataAlteracao": "2019-05-14T16:11:34.47"
+        }
+    },
+    {
+        "funcionarioId": 103,
+        "nomeFuncionario": "Irineu Baptista Crivillari",
+        "cargoId": 201,
+        "cargo": "CRI",
+        "dataCriacao": "2019-05-14T16:11:34.533",
+        "dataAlteracao": "2019-05-14T16:11:34.533",
+        "usuarioId": 107,
+        "usuario": {
+            "usuarioId": 107,
+            "email": "icrivillari@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:11:34.52",
+            "dataAlteracao": "2019-05-14T16:11:34.52"
+        }
+    },
+    {
+        "funcionarioId": 104,
+        "nomeFuncionario": "Ronaldo De Oliveira Faustino ",
+        "cargoId": 201,
+        "cargo": "CRI",
+        "dataCriacao": "2019-05-14T16:11:35.213",
+        "dataAlteracao": "2019-05-14T16:11:35.213",
+        "usuarioId": 108,
+        "usuario": {
+            "usuarioId": 108,
+            "email": "roliveira@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:11:35.197",
+            "dataAlteracao": "2019-05-14T16:11:35.197"
+        }
+    },
+    {
+        "funcionarioId": 105,
+        "nomeFuncionario": "Marcio Vieira Marinho",
+        "cargoId": 200,
+        "cargo": "Diretor",
+        "dataCriacao": "2019-05-14T16:11:36.67",
+        "dataAlteracao": "2019-05-14T16:11:36.67",
+        "usuarioId": 109,
+        "usuario": {
+            "usuarioId": 109,
+            "email": "mmarinho@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:11:36.65",
+            "dataAlteracao": "2019-05-14T16:11:36.65"
+        }
+    },
+    {
+        "funcionarioId": 106,
+        "nomeFuncionario": "Luciano Aparecido Casagrande Campaner",
+        "cargoId": 201,
+        "cargo": "CRI",
+        "dataCriacao": "2019-05-14T16:11:36.71",
+        "dataAlteracao": "2019-05-14T16:11:36.71",
+        "usuarioId": 110,
+        "usuario": {
+            "usuarioId": 110,
+            "email": "lucianocasagrande@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:11:36.697",
+            "dataAlteracao": "2019-05-14T16:11:36.697"
+        }
+    },
+    {
+        "funcionarioId": 107,
+        "nomeFuncionario": "Reginaldo Dias de Souza",
+        "cargoId": 200,
+        "cargo": "Diretor",
+        "dataCriacao": "2019-05-14T16:11:37.463",
+        "dataAlteracao": "2019-05-14T16:11:37.463",
+        "usuarioId": 111,
+        "usuario": {
+            "usuarioId": 111,
+            "email": "rdsouza@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:11:37.45",
+            "dataAlteracao": "2019-05-14T16:11:37.45"
+        }
+    },
+    {
+        "funcionarioId": 108,
+        "nomeFuncionario": "Maria Helena Alecrim Freitas",
+        "cargoId": 201,
+        "cargo": "CRI",
+        "dataCriacao": "2019-05-14T16:11:37.52",
+        "dataAlteracao": "2019-05-14T16:11:37.52",
+        "usuarioId": 112,
+        "usuario": {
+            "usuarioId": 112,
+            "email": "mhfreitas@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:11:37.49",
+            "dataAlteracao": "2019-05-14T16:11:37.49"
+        }
+    },
+    {
+        "funcionarioId": 109,
+        "nomeFuncionario": "Paulo Sergio Sassi",
+        "cargoId": 200,
+        "cargo": "Diretor",
+        "dataCriacao": "2019-05-14T16:11:38.14",
+        "dataAlteracao": "2019-05-14T16:11:38.14",
+        "usuarioId": 113,
+        "usuario": {
+            "usuarioId": 113,
+            "email": "psassi@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:11:38.123",
+            "dataAlteracao": "2019-05-14T16:11:38.123"
+        }
+    },
+    {
+        "funcionarioId": 110,
+        "nomeFuncionario": "Jose Antonio Espelho",
+        "cargoId": 201,
+        "cargo": "CRI",
+        "dataCriacao": "2019-05-14T16:11:38.197",
+        "dataAlteracao": "2019-05-14T16:11:38.197",
+        "usuarioId": 114,
+        "usuario": {
+            "usuarioId": 114,
+            "email": "jespelho@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:11:38.173",
+            "dataAlteracao": "2019-05-14T16:11:38.173"
+        }
+    },
+    {
+        "funcionarioId": 111,
+        "nomeFuncionario": "Wagner Lopes Muinos",
+        "cargoId": 200,
+        "cargo": "Diretor",
+        "dataCriacao": "2019-05-14T16:11:38.84",
+        "dataAlteracao": "2019-05-14T16:11:38.84",
+        "usuarioId": 115,
+        "usuario": {
+            "usuarioId": 115,
+            "email": "wmulnos@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:11:38.823",
+            "dataAlteracao": "2019-05-14T16:11:38.823"
+        }
+    },
+    {
+        "funcionarioId": 112,
+        "nomeFuncionario": "Euripedes Mendonca",
+        "cargoId": 201,
+        "cargo": "CRI",
+        "dataCriacao": "2019-05-14T16:11:38.883",
+        "dataAlteracao": "2019-05-14T16:11:38.883",
+        "usuarioId": 116,
+        "usuario": {
+            "usuarioId": 116,
+            "email": "euripedes@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:11:38.867",
+            "dataAlteracao": "2019-05-14T16:11:38.867"
+        }
+    },
+    {
+        "funcionarioId": 113,
+        "nomeFuncionario": "Luiz Zambon Neto",
+        "cargoId": 200,
+        "cargo": "Diretor",
+        "dataCriacao": "2019-05-14T16:11:39.663",
+        "dataAlteracao": "2019-05-14T16:11:39.663",
+        "usuarioId": 117,
+        "usuario": {
+            "usuarioId": 117,
+            "email": "lzambon@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:11:39.647",
+            "dataAlteracao": "2019-05-14T16:11:39.647"
+        }
+    },
+    {
+        "funcionarioId": 114,
+        "nomeFuncionario": "Marta Regina Pavelqueires",
+        "cargoId": 201,
+        "cargo": "CRI",
+        "dataCriacao": "2019-05-14T16:11:39.713",
+        "dataAlteracao": "2019-05-14T16:11:39.713",
+        "usuarioId": 118,
+        "usuario": {
+            "usuarioId": 118,
+            "email": "martapavelqueires@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:11:39.69",
+            "dataAlteracao": "2019-05-14T16:11:39.69"
+        }
+    },
+    {
+        "funcionarioId": 115,
+        "nomeFuncionario": "Alexandre Sotta",
+        "cargoId": 201,
+        "cargo": "CRI",
+        "dataCriacao": "2019-05-14T16:11:40.403",
+        "dataAlteracao": "2019-05-14T16:11:40.403",
+        "usuarioId": 119,
+        "usuario": {
+            "usuarioId": 119,
+            "email": "asotta@sp.senai.br ",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:11:40.39",
+            "dataAlteracao": "2019-05-14T16:11:40.39"
+        }
+    },
+    {
+        "funcionarioId": 116,
+        "nomeFuncionario": "Ademir Redondo",
+        "cargoId": 200,
+        "cargo": "Diretor",
+        "dataCriacao": "2019-05-14T16:11:41.05",
+        "dataAlteracao": "2019-05-14T16:11:41.05",
+        "usuarioId": 120,
+        "usuario": {
+            "usuarioId": 120,
+            "email": "aredondo@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:11:41.023",
+            "dataAlteracao": "2019-05-14T16:11:41.023"
+        }
+    },
+    {
+        "funcionarioId": 117,
+        "nomeFuncionario": "Luiz Marcelo Cavalcanti Tek",
+        "cargoId": 201,
+        "cargo": "CRI",
+        "dataCriacao": "2019-05-14T16:11:41.1",
+        "dataAlteracao": "2019-05-14T16:11:41.1",
+        "usuarioId": 121,
+        "usuario": {
+            "usuarioId": 121,
+            "email": "tek@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:11:41.083",
+            "dataAlteracao": "2019-05-14T16:11:41.083"
+        }
+    },
+    {
+        "funcionarioId": 118,
+        "nomeFuncionario": "Laerte Padilha Lozigia",
+        "cargoId": 200,
+        "cargo": "Diretor",
+        "dataCriacao": "2019-05-14T16:11:41.76",
+        "dataAlteracao": "2019-05-14T16:11:41.76",
+        "usuarioId": 122,
+        "usuario": {
+            "usuarioId": 122,
+            "email": "llozigia@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:11:41.74",
+            "dataAlteracao": "2019-05-14T16:11:41.74"
+        }
+    },
+    {
+        "funcionarioId": 119,
+        "nomeFuncionario": "Carlos Henrique Ottaiano",
+        "cargoId": 201,
+        "cargo": "CRI",
+        "dataCriacao": "2019-05-14T16:11:41.823",
+        "dataAlteracao": "2019-05-14T16:11:41.823",
+        "usuarioId": 123,
+        "usuario": {
+            "usuarioId": 123,
+            "email": "cottaiano@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:11:41.79",
+            "dataAlteracao": "2019-05-14T16:11:41.79"
+        }
+    },
+    {
+        "funcionarioId": 120,
+        "nomeFuncionario": "Fabio Rocha da Silveira ",
+        "cargoId": 200,
+        "cargo": "Diretor",
+        "dataCriacao": "2019-05-14T16:11:42.457",
+        "dataAlteracao": "2019-05-14T16:11:42.457",
+        "usuarioId": 124,
+        "usuario": {
+            "usuarioId": 124,
+            "email": "rocha@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:11:42.44",
+            "dataAlteracao": "2019-05-14T16:11:42.44"
+        }
+    },
+    {
+        "funcionarioId": 121,
+        "nomeFuncionario": "Ivan Roberto Fontes",
+        "cargoId": 201,
+        "cargo": "CRI",
+        "dataCriacao": "2019-05-14T16:11:42.497",
+        "dataAlteracao": "2019-05-14T16:11:42.497",
+        "usuarioId": 125,
+        "usuario": {
+            "usuarioId": 125,
+            "email": "ifontes@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:11:42.483",
+            "dataAlteracao": "2019-05-14T16:11:42.483"
+        }
+    },
+    {
+        "funcionarioId": 122,
+        "nomeFuncionario": "Paulo Sergio Soares Oliveira",
+        "cargoId": 201,
+        "cargo": "CRI",
+        "dataCriacao": "2019-05-14T16:11:43.19",
+        "dataAlteracao": "2019-05-14T16:11:43.19",
+        "usuarioId": 126,
+        "usuario": {
+            "usuarioId": 126,
+            "email": "poliveira@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:11:43.173",
+            "dataAlteracao": "2019-05-14T16:11:43.173"
+        }
+    },
+    {
+        "funcionarioId": 123,
+        "nomeFuncionario": "Wilson Jose Chiari",
+        "cargoId": 200,
+        "cargo": "Diretor",
+        "dataCriacao": "2019-05-14T16:11:43.87",
+        "dataAlteracao": "2019-05-14T16:11:43.87",
+        "usuarioId": 127,
+        "usuario": {
+            "usuarioId": 127,
+            "email": "wchiari@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:11:43.84",
+            "dataAlteracao": "2019-05-14T16:11:43.84"
+        }
+    },
+    {
+        "funcionarioId": 124,
+        "nomeFuncionario": "Thiago Alexandre Rosa Hamad ",
+        "cargoId": 201,
+        "cargo": "CRI",
+        "dataCriacao": "2019-05-14T16:11:43.923",
+        "dataAlteracao": "2019-05-14T16:11:43.923",
+        "usuarioId": 128,
+        "usuario": {
+            "usuarioId": 128,
+            "email": "thiago.rosa@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:11:43.907",
+            "dataAlteracao": "2019-05-14T16:11:43.907"
+        }
+    },
+    {
+        "funcionarioId": 125,
+        "nomeFuncionario": "Ilieste Augusto Malta Filho",
+        "cargoId": 200,
+        "cargo": "Diretor",
+        "dataCriacao": "2019-05-14T16:11:45.35",
+        "dataAlteracao": "2019-05-14T16:11:45.35",
+        "usuarioId": 129,
+        "usuario": {
+            "usuarioId": 129,
+            "email": "imalta@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:11:45.337",
+            "dataAlteracao": "2019-05-14T16:11:45.337"
+        }
+    },
+    {
+        "funcionarioId": 126,
+        "nomeFuncionario": "Robson Pereira Marques Junior",
+        "cargoId": 201,
+        "cargo": "CRI",
+        "dataCriacao": "2019-05-14T16:11:45.393",
+        "dataAlteracao": "2019-05-14T16:11:45.393",
+        "usuarioId": 130,
+        "usuario": {
+            "usuarioId": 130,
+            "email": "rmarques@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:11:45.377",
+            "dataAlteracao": "2019-05-14T16:11:45.377"
+        }
+    },
+    {
+        "funcionarioId": 127,
+        "nomeFuncionario": "Cesar  Ferraiolo Batista",
+        "cargoId": 200,
+        "cargo": "Diretor",
+        "dataCriacao": "2019-05-14T16:11:46.063",
+        "dataAlteracao": "2019-05-14T16:11:46.063",
+        "usuarioId": 131,
+        "usuario": {
+            "usuarioId": 131,
+            "email": "cesar@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:11:46.047",
+            "dataAlteracao": "2019-05-14T16:11:46.047"
+        }
+    },
+    {
+        "funcionarioId": 128,
+        "nomeFuncionario": "Silvio Ronei Marchetti",
+        "cargoId": 201,
+        "cargo": "CRI",
+        "dataCriacao": "2019-05-14T16:11:46.103",
+        "dataAlteracao": "2019-05-14T16:11:46.103",
+        "usuarioId": 132,
+        "usuario": {
+            "usuarioId": 132,
+            "email": "silviomarchetti@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:11:46.087",
+            "dataAlteracao": "2019-05-14T16:11:46.087"
+        }
+    },
+    {
+        "funcionarioId": 129,
+        "nomeFuncionario": "Tarso Tristão da Silva",
+        "cargoId": 200,
+        "cargo": "Diretor",
+        "dataCriacao": "2019-05-14T16:11:47.643",
+        "dataAlteracao": "2019-05-14T16:11:47.643",
+        "usuarioId": 133,
+        "usuario": {
+            "usuarioId": 133,
+            "email": "tarsotristao@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:11:47.617",
+            "dataAlteracao": "2019-05-14T16:11:47.617"
+        }
+    },
+    {
+        "funcionarioId": 130,
+        "nomeFuncionario": "Carlos Antonio Goncalves",
+        "cargoId": 201,
+        "cargo": "CRI",
+        "dataCriacao": "2019-05-14T16:11:47.683",
+        "dataAlteracao": "2019-05-14T16:11:47.683",
+        "usuarioId": 134,
+        "usuario": {
+            "usuarioId": 134,
+            "email": "carlosag@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:11:47.667",
+            "dataAlteracao": "2019-05-14T16:11:47.667"
+        }
+    },
+    {
+        "funcionarioId": 131,
+        "nomeFuncionario": "Sebastião Roberto de Andrade",
+        "cargoId": 200,
+        "cargo": "Diretor",
+        "dataCriacao": "2019-05-14T16:11:48.417",
+        "dataAlteracao": "2019-05-14T16:11:48.417",
+        "usuarioId": 135,
+        "usuario": {
+            "usuarioId": 135,
+            "email": "sandrade@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:11:48.4",
+            "dataAlteracao": "2019-05-14T16:11:48.4"
+        }
+    },
+    {
+        "funcionarioId": 132,
+        "nomeFuncionario": "André Luis Cano",
+        "cargoId": 201,
+        "cargo": "CRI",
+        "dataCriacao": "2019-05-14T16:11:48.453",
+        "dataAlteracao": "2019-05-14T16:11:48.453",
+        "usuarioId": 136,
+        "usuario": {
+            "usuarioId": 136,
+            "email": "andrecano@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:11:48.44",
+            "dataAlteracao": "2019-05-14T16:11:48.44"
+        }
+    },
+    {
+        "funcionarioId": 133,
+        "nomeFuncionario": "Ronaldo Sotrate Júnior",
+        "cargoId": 200,
+        "cargo": "Diretor",
+        "dataCriacao": "2019-05-14T16:11:49.297",
+        "dataAlteracao": "2019-05-14T16:11:49.297",
+        "usuarioId": 137,
+        "usuario": {
+            "usuarioId": 137,
+            "email": "rsotrate@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:11:49.26",
+            "dataAlteracao": "2019-05-14T16:11:49.26"
+        }
+    },
+    {
+        "funcionarioId": 134,
+        "nomeFuncionario": "Dirlene Guimaraes Arantes Fialkovics ",
+        "cargoId": 201,
+        "cargo": "CRI",
+        "dataCriacao": "2019-05-14T16:11:49.347",
+        "dataAlteracao": "2019-05-14T16:11:49.347",
+        "usuarioId": 138,
+        "usuario": {
+            "usuarioId": 138,
+            "email": "dirlene@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:11:49.323",
+            "dataAlteracao": "2019-05-14T16:11:49.323"
+        }
+    },
+    {
+        "funcionarioId": 135,
+        "nomeFuncionario": "Tarso Tristão da Silva",
+        "cargoId": 200,
+        "cargo": "Diretor",
+        "dataCriacao": "2019-05-14T16:11:50.783",
+        "dataAlteracao": "2019-05-14T16:11:50.783",
+        "usuarioId": 139,
+        "usuario": {
+            "usuarioId": 139,
+            "email": "huchiyama@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:11:50.767",
+            "dataAlteracao": "2019-05-14T16:11:50.767"
+        }
+    },
+    {
+        "funcionarioId": 136,
+        "nomeFuncionario": "Liberato Marcuz Junior",
+        "cargoId": 201,
+        "cargo": "CRI",
+        "dataCriacao": "2019-05-14T16:11:50.853",
+        "dataAlteracao": "2019-05-14T16:11:50.853",
+        "usuarioId": 140,
+        "usuario": {
+            "usuarioId": 140,
+            "email": " liberato@sp.senai.br",
+            "permissaoId": 302,
+            "permissao": "Funcionario",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T16:11:50.837",
+            "dataAlteracao": "2019-05-14T16:11:50.837"
+        }
+    }
+]

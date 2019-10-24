@@ -1,0 +1,6 @@
+{
+  "name": "Hosts Listagem",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./HostsListagem.js"
+}

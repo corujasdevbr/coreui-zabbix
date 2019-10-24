@@ -1,0 +1,60 @@
+[
+    {
+        "empresarioId": 1,
+        "documento": "09090909000132",
+        "razaoSocial": "Esmeraldino",
+        "responsavel": "CorujasDev",
+        "telefone": "11989898889",
+        "tipo": "0",
+        "tipoId": 502,
+        "cep": "03074354",
+        "logradouro": "rua Benedito Bezerra",
+        "complemento": "180",
+        "uf": "SP",
+        "cidade": "SÃO PAULO",
+        "bairro": "Maranhão",
+        "latitude": -235320200,
+        "longitude": -465579900,
+        "usuarioId": 5,
+        "dataCriacao": "2019-05-14T18:57:55.523",
+        "dataAlteracao": "2019-05-14T18:57:55.523",
+        "usuario": {
+            "usuarioId": 5,
+            "email": "esmeraldino@marvel.com",
+            "permissaoId": 303,
+            "permissao": "Comum",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T18:57:55.38",
+            "dataAlteracao": "2019-05-14T18:57:55.38"
+        }
+    },
+    {
+        "empresarioId": 2,
+        "documento": "43565476354",
+        "razaoSocial": "Roberto Possarle",
+        "responsavel": "",
+        "telefone": "11976565677",
+        "tipo": "0",
+        "tipoId": 501,
+        "cep": "01548010",
+        "logradouro": "Rua Frederico Von Martius ",
+        "complemento": "295",
+        "uf": "SP",
+        "cidade": "SÃO PAULO",
+        "bairro": "Vila Monumento",
+        "latitude": -23.576685,
+        "longitude": -46.6151428,
+        "usuarioId": 6,
+        "dataCriacao": "2019-05-14T18:57:55.523",
+        "dataAlteracao": "2019-05-14T18:57:55.523",
+        "usuario": {
+            "usuarioId": 6,
+            "email": "roberto.possarle@sp.senai.br",
+            "permissaoId": 303,
+            "permissao": "Comum",
+            "ativo": true,
+            "dataCriacao": "2019-05-14T18:57:55.38",
+            "dataAlteracao": "2019-05-14T18:57:55.38"
+        }
+    }
+]
