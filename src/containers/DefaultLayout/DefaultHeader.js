@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { DropdownToggle, Nav } from 'reactstrap';
 import PropTypes from 'prop-types';
-import { parseJwt } from '../../services/auth';
 
 import { AppHeaderDropdown, AppNavbarBrand, AppSidebarToggler } from '@coreui/react';
 import logo from '../../assets/img/brand/logo-blocktime.png'
@@ -31,7 +30,7 @@ class DefaultHeader extends Component {
 
           <AppHeaderDropdown direction="down">
             <DropdownToggle nav>
-              <p className="img-avatar"> Administrador  | <span onClick={e => this.props.onLogout(e)}><i className="fa fa-lock"></i> Sair</span></p>
+              <p className="img-avatar"> {localStorage.getItem("name-user-blocktime-zabbix")}  | <span onClick={e => this.props.onLogout(e)}><i className="fa fa-lock"></i> Sair</span></p>
             </DropdownToggle>
           </AppHeaderDropdown>
         </Nav>

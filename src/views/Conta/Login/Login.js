@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import { parseJwt } from '../../../services/auth';
 import api from '../../../services/api';
 
 import logo from '../../../assets/img/brand/logo-blocktime.png'
@@ -14,8 +13,16 @@ class Login extends Component {
     this.state = {
       usuario: null,
       senha: null,
+      nome: null,
       erroMensagem: '',
       isLoading: false
+    }
+  }
+
+  componentDidMount() {
+    console.log(localStorage.getItem("auth-coreui-zabbix"))
+    if (localStorage.getItem("auth-coreui-zabbix") !== null) {
+      this.props.history.push("/admin/dashboard");
     }
   }
 
@@ -39,8 +46,26 @@ class Login extends Component {
     })
       .then(data => {
         if (data.status === 200) {
-          localStorage.setItem("auth-blocktime-zabbix", data.data.result);
-          this.props.history.push("/admin/dashboard");
+          localStorage.setItem("auth-coreui-zabbix", data.data.result);
+          api.post("", {
+            "jsonrpc": "2.0",
+            "method": "user.get",
+            "params": {
+              "output": "extend"
+            },
+            "auth": data.data.result,
+            "id": 1
+          })
+            .then(data => {
+              if (data.status === 200) {
+                localStorage.setItem("name-user-blocktime-zabbix", data.data.result[0].name + ' ' + data.data.result[0].surname);
+                this.props.history.push("/admin/dashboard");
+              }
+            })
+            .catch(erro => {
+              this.setState({ isLoading: false });
+              this.setState({ erroMensagem: 'Email ou senha inválido' });
+            })
         }
       })
       .catch(erro => {

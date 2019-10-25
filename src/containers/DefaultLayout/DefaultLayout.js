@@ -31,8 +31,8 @@ class DefaultLayout extends Component {
 
   signOut(e) {
     e.preventDefault()
-    localStorage.removeItem("auth-blocktime-zabbix")
-    let token = localStorage.getItem("auth-blocktime-zabbix");
+    localStorage.removeItem("auth-coreui-zabbix")
+    let token = localStorage.getItem("auth-coreui-zabbix");
     api.post("", {
       "jsonrpc": "2.0",
       "method": "user.logout",
