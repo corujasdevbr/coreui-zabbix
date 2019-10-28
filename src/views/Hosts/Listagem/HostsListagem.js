@@ -1,11 +1,9 @@
-import React, { useEffect, useMemo, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Card, CardBody, CardHeader, Col, Row, Button } from 'reactstrap';
 import api from '../../../services/api';
 import DataTable from 'react-data-table-component';
 import styled from 'styled-components';
 import ModalItemsHost from '../../components/Modal/ModalItemsHost';
-
-
 
 const TextField = styled.input`
   height: 32px;
@@ -24,15 +22,13 @@ const Filter = ({ onFilter }) => (
 );
 
 function HostsListagem() {
-  const handleAction = (hostid) => {
-    setHostId(hostid);
-    setIsOpen(true);
-    setTitle('Host Id: ' + hostid)
-  }
+
 
   const [filterText, setFilterText] = useState('');
   const [filteredItems, setFilteredItems] = useState([]);
-  const subHeaderComponentMemo = React.useMemo(() => <Filter onFilter={value => setFilterText(value)} />, []);
+  const subHeaderComponentMemo = React.useMemo(() => <Filter onFilter={value => { setFilterText(value) }} />, []);
+
+
   const [isOpen, setIsOpen] = useState(false);
   const [title, setTitle] = useState('');
   const [hostid, setHostId] = useState('');
@@ -49,6 +45,12 @@ function HostsListagem() {
       sortable: true
     },
     {
+      cell: row => <p>{row.groups.map(item => { return item.name })}</p>,
+      name: 'Groups',
+      selector: 'groups',
+      sortable: true
+    },
+    {
       cell: row => <Button onClick={() => { handleAction(row.hostid) }}>Action</Button>,
       ignoreRowClick: true,
       allowOverflow: true,
@@ -56,11 +58,15 @@ function HostsListagem() {
     },
   ];
 
-
-
   useEffect(() => {
     buscarHosts();
-  }, [])
+  })
+
+  const handleAction = (hostid) => {
+    setHostId(hostid);
+    setIsOpen(true);
+    setTitle('Host Id: ' + hostid)
+  }
 
   const buscarHosts = () => {
     let token = localStorage.getItem("auth-coreui-zabbix");
@@ -68,15 +74,15 @@ function HostsListagem() {
       "jsonrpc": "2.0",
       "method": "host.get",
       "params": {
-        "output": ["hostid", "host"],
-        "groupids": "129"
+        "output": ["hostid", "name", "host"],
+        "selectGroups": "extend"
       },
       "auth": token,
       "id": 1
     })
       .then(data => {
         if (data.status === 200) {
-          setFilteredItems(data.data.result.filter(item => item.host.toLowerCase().includes(filterText.toLowerCase()) || item.hostid.includes(filterText)))
+          setFilteredItems(data.data.result.filter(item => item.host.toLowerCase().includes(filterText.toLowerCase()) || item.hostid.includes(filterText)));
         }
       })
   }

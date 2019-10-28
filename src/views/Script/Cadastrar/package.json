@@ -1,0 +1,6 @@
+{
+  "name": "Script Cadastrar",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./ScriptCadastrar.js"
+}

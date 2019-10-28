@@ -31,7 +31,6 @@ class DefaultLayout extends Component {
 
   signOut(e) {
     e.preventDefault()
-    localStorage.removeItem("auth-coreui-zabbix")
     let token = localStorage.getItem("auth-coreui-zabbix");
     api.post("", {
       "jsonrpc": "2.0",
@@ -42,6 +41,8 @@ class DefaultLayout extends Component {
     })
       .then(data => {
         if (data.status === 200) {
+          localStorage.removeItem("auth-coreui-zabbix")
+
           this.props.history.push('/')
         }
       })

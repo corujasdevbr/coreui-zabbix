@@ -4,18 +4,7 @@ import api from '../../../services/api';
 import DataTable from 'react-data-table-component';
 import styled from 'styled-components';
 
-const columns = [
-  {
-    name: 'Id',
-    selector: 'groupid',
-    sortable: true,
-  },
-  {
-    name: 'Nome',
-    selector: 'name',
-    sortable: true
-  },
-];
+
 
 const TextField = styled.input`
   height: 32px;
@@ -37,11 +26,24 @@ function HostGroupListagem() {
 
   const [filterText, setFilterText] = React.useState('');
   const [filteredItems, setFilteredItems] = React.useState([]);
-  const subHeaderComponentMemo = React.useMemo(() => <Filter onFilter={value => setFilterText(value)} />, []);
+  const subHeaderComponentMemo = React.useMemo(() => <Filter onFilter={value => { setFilterText(value) }} />, []);
+
+  const columns = [
+    {
+      name: 'Id',
+      selector: 'groupid',
+      sortable: true,
+    },
+    {
+      name: 'Nome',
+      selector: 'name',
+      sortable: true
+    },
+  ];
 
   useEffect(() => {
     buscarHostGroups();
-  })
+  }, [filteredItems])
 
   const buscarHostGroups = () => {
     let token = localStorage.getItem("auth-coreui-zabbix");

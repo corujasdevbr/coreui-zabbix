@@ -3,7 +3,7 @@ import { DropdownToggle, Nav } from 'reactstrap';
 import PropTypes from 'prop-types';
 
 import { AppHeaderDropdown, AppNavbarBrand, AppSidebarToggler } from '@coreui/react';
-import logo from '../../assets/img/brand/logo-blocktime.png'
+import logo from '../../assets/img/brand/zabbix_logo_500x131.png'
 
 const propTypes = {
   children: PropTypes.node,
@@ -30,7 +30,7 @@ class DefaultHeader extends Component {
 
           <AppHeaderDropdown direction="down">
             <DropdownToggle nav>
-              <p className="img-avatar"> {localStorage.getItem("name-user-blocktime-zabbix")}  | <span onClick={e => this.props.onLogout(e)}><i className="fa fa-lock"></i> Sair</span></p>
+              <p className="img-avatar"> {localStorage.getItem("name-user-zabbix")}  | <span onClick={e => this.props.onLogout(e)}><i className="fa fa-lock"></i> Sair</span></p>
             </DropdownToggle>
           </AppHeaderDropdown>
         </Nav>

@@ -1,0 +1,6 @@
+{
+  "name": "Quantidade de Items",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./ChartCountItemsByName.js"
+}

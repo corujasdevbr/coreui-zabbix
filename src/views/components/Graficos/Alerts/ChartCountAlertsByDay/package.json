@@ -1,0 +1,6 @@
+{
+  "name": "Quantidade de alertas por dia",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./ChartCountAlertsByDay.js"
+}

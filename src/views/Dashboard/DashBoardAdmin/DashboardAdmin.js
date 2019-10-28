@@ -1,79 +1,27 @@
 import React, { useEffect, useState } from "react";
-import { Line } from "react-chartjs-2";
-import { CustomTooltips } from "@coreui/coreui-plugin-chartjs-custom-tooltips";
-import ModalItemsHost from '../../components/Modal/ModalItemsHost';
-
+import ChartCountHostByGroup from '../../components/Graficos/HostGroup/ChartCountHostByGroup'
+import ChartCountItemsByName from '../../components/Graficos/Items/ChartCountItemsByName'
+import ChartCountAlertsByDay from '../../components/Graficos/Alerts/ChartCountAlertsByDay/ChartCountAlertsByDay'
 import api from '../../../services/api';
 
 import { Link } from "react-router-dom";
 
 import {
-  Button,
   ButtonGroup,
   Card,
   CardBody,
   Col,
   Row,
   CardHeader,
-  Table
 } from "reactstrap";
-
-
-const options = {
-  tooltips: {
-    enabled: false,
-    custom: CustomTooltips
-  },
-  maintainAspectRatio: false
-}
-
-let line = {
-  labels: null,
-
-  datasets: [
-    {
-      label: 'Quantidade de Demandas',
-      fill: false,
-      lineTension: 0.1,
-      backgroundColor: 'rgba(75,192,192,0.4)',
-      borderColor: 'rgba(75,192,192,1)',
-      borderCapStyle: 'butt',
-      borderDash: [],
-      borderDashOffset: 0.0,
-      borderJoinStyle: 'miter',
-      pointBorderColor: 'rgba(75,192,192,1)',
-      pointBackgroundColor: '#fff',
-      pointBorderWidth: 1,
-      pointHoverRadius: 5,
-      pointHoverBackgroundColor: 'rgba(75,192,192,1)',
-      pointHoverBorderColor: 'rgba(220,220,220,1)',
-      pointHoverBorderWidth: 10,
-      pointRadius: 1,
-      pointHitRadius: 10,
-      data: null,
-    },
-  ],
-};
 
 function DashboardAdmin() {
   const [quantidadeHosts, setQuantidadeHosts] = useState(0);
   const [quantidadeHostGroup, setQuantidadeHostGroup] = useState(0);
   const [quantidadeServices, setQuantidadeServices] = useState(0);
   const [quantidadeValueMap, setQuantidadeValueMap] = useState(0);
-  const [isOpen, setIsOpen] = useState(false);
-  const [title, setTitle] = useState('');
-  const [hostid, setHostId] = useState('');
-
-
-  const [lista, setLista] = useState({
-    demandas: [],
-    labelsRelatorioDemandas: [],
-    dataRelatorioDemandas: [],
-    legendaGrafico: []
-  })
 
   useEffect(() => {
-
     buscarHostGroups();
     buscarServices();
     buscarHosts();
@@ -154,12 +102,6 @@ function DashboardAdmin() {
       })
   }
 
-  const loading = () => (
-    <div className="animated fadeIn pt-1 text-center">Loading...</div>
-  );
-
-
-
   return (
     <div className="animated fadeIn">
       <Row>
@@ -221,20 +163,20 @@ function DashboardAdmin() {
       </Row>
 
       <Row>
-        <Col xs="12" sm="12">
-          <Card>
-            <CardHeader>
-              Gráfico
-            </CardHeader>
-            <CardBody>
-              <div className="chart-wrapper" style={{ height: '56vh' }}>
-                <Line data={line} options={options} />
-              </div>
-            </CardBody>
-          </Card>
+        <Col xs="4" sm="4">
+          <ChartCountHostByGroup></ChartCountHostByGroup>
         </Col>
-
+        <Col xs="8" sm="8">
+          <ChartCountAlertsByDay></ChartCountAlertsByDay>
+        </Col>
       </Row>
+
+      <Row>
+        <Col xs="12" sm="12">
+          <ChartCountItemsByName></ChartCountItemsByName>
+        </Col>
+      </Row>
+
     </div>
   );
 }

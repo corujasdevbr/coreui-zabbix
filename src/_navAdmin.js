@@ -24,6 +24,16 @@ export default {
       name: 'Serviços',
       url: '/admin/services/listagem',
       icon: 'icon-drop',
+    },
+    {
+      name: 'Scripts',
+      url: '/admin/script/cadastrar',
+      icon: 'icon-drop',
+    },
+    {
+      name: 'Alertas',
+      url: '/admin/alert/listagem',
+      icon: 'icon-drop',
     }
   ],
 };

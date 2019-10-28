@@ -1,0 +1,6 @@
+{
+  "name": "Quantidade de Hosts por Grupo",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./ChartCountHostByGroup.js"
+}
