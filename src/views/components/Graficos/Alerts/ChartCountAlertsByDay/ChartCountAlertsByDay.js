@@ -100,7 +100,7 @@ function ChartCountHostByGroup() {
         <div>
             <Card>
                 <CardHeader>
-                    Quantidade Hosts por Grupo
+                    Quantidade Alertas por Data
                 </CardHeader>
                 <CardBody>
                     {loading ? <Loading type="balls" title="Buscando Dados"></Loading> : ''}

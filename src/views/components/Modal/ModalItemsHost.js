@@ -1,32 +1,20 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import api from '../../../services/api';
 import DataTable from 'react-data-table-component';
-import styled from 'styled-components';
-import { Button, Modal, ModalBody, ModalFooter, ModalHeader, Row } from 'reactstrap';
-
-
-
-const TextField = styled.input`
-    height: 32px;
-    width: 300px;
-    border-radius: 3px;
-    border: 1px solid #e5e5e5;
-    padding: 16px;
-  
-    &:hover {
-      cursor: pointer;
-    }
-  `;
-
-const Filter = ({ onFilter }) => (
-    <TextField id="search" type="search" role="search" placeholder="Search Title" onChange={e => onFilter(e.target.value)} />
-);
+import Loading from '../../components/Loading/Loading'
+import { Button, Modal, ModalBody, ModalFooter, ModalHeader } from 'reactstrap';
 
 function ModalItemsHost(props) {
 
-    const [filterText, setFilterText] = React.useState('');
-    const [filteredItems, setFilteredItems] = React.useState([]);
-    const subHeaderComponentMemo = React.useMemo(() => <Filter onFilter={value => setFilterText(value)} />, []);
+    const toTimestamp = (time) => {
+        var date = new Date(time * 1000); // converte para data
+        return date.toLocaleDateString("pt-BR"); //formata de acordo com o requisito
+    }
+
+    const [loading, setLoading] = useState(false);
+    const [filterText, setFilterText] = useState('');
+    const [items, setItems] = useState([]);
+    const [filteredItems, setFilteredItems] = useState([]);
 
     const columns = [
         {
@@ -40,23 +28,19 @@ function ModalItemsHost(props) {
             sortable: true
         },
         {
+            cell: row => <p>{toTimestamp(row.lastclock)}</p>,
             name: 'Data',
             selector: 'lastclock',
             sortable: true,
         }
     ];
 
-    const toTimestamp = (strDate) => {
-        console.log(strDate);
-        var datum = Date.parse(strDate);
-        return datum / 1000;
-    }
-
     useEffect(() => {
         buscarItemsHost();
-    }, [props.hostid])
+    }, [])
 
     const buscarItemsHost = () => {
+        setLoading(true);
         let token = localStorage.getItem("auth-coreui-zabbix");
         api.post("", {
             "jsonrpc": "2.0",
@@ -70,11 +54,11 @@ function ModalItemsHost(props) {
         })
             .then(data => {
                 if (data.status === 200) {
-                    console.log(data.data.result);
-                    setFilteredItems(data.data.result.filter(item => item.name.toLowerCase().includes(filterText.toLowerCase()) || item.itemid.includes(filterText)))
-                    var result = data.data.result.reduce((acc, o) => (acc[o.name] = (acc[o.name] || 0) + 1, acc), {});
-                    console.log(result);
+                    setItems(data.data.result);
+                    setFilteredItems(data.data.result);
                 }
+            }).finally(() => {
+                setLoading(false);
             })
     }
 
@@ -83,12 +67,11 @@ function ModalItemsHost(props) {
             className='modal-lg '>
             <ModalHeader toggle={props.toggleSmall}>{props.title}</ModalHeader>
             <ModalBody>
+                {loading ? <Loading type="balls" title="Buscando Alertas"></Loading> : ''}
                 <DataTable
                     columns={columns}
-                    data={filteredItems}
+                    data={filteredItems.reverse()}
                     pagination
-                    subHeader
-                    subHeaderComponent={subHeaderComponentMemo}
                 />
             </ModalBody>
             <ModalFooter>

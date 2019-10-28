@@ -50,7 +50,7 @@ class Login extends Component {
       .then(data => {
         if (data.status === 200) {
           localStorage.setItem("auth-coreui-zabbix", data.data.result);
-          api.post("", {
+          api.post(this.state.urlzabbix, {
             "jsonrpc": "2.0",
             "method": "user.get",
             "params": {

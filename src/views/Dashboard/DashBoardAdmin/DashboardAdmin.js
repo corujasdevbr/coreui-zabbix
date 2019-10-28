@@ -52,15 +52,16 @@ function DashboardAdmin() {
       "jsonrpc": "2.0",
       "method": "host.get",
       "params": {
-        "output": ["hostid", "host"],
-        "groupids": "129"
+
+        "countOutput": true
+
       },
       "auth": token,
-      "id": 1
+      "id": 3
     })
       .then(data => {
         if (data.status === 200) {
-          setQuantidadeHosts(data.data.result.length)
+          setQuantidadeHosts(data.data.result)
         }
       })
   }
