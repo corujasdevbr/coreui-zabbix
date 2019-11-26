@@ -3,7 +3,7 @@ import axios from "axios";
 import router from '../routes';
 
 const api = axios.create({
-  baseURL: localStorage.getItem("url-zabbix")
+  baseURL: "https://monitor.blocktime.com.br/zabbix/api_jsonrpc.php"
 });
 
 api.interceptors.response.use(

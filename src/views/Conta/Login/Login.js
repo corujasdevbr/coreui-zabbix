@@ -37,7 +37,7 @@ class Login extends Component {
 
     this.setState({ isLoading: true, erroMensagem: "" });
 
-    api.post(this.state.urlzabbix, {
+    api.post("https://monitor.blocktime.com.br/zabbix/api_jsonrpc.php", {
       "jsonrpc": "2.0",
       "method": "user.login",
       "params": {
@@ -50,7 +50,7 @@ class Login extends Component {
       .then(data => {
         if (data.status === 200) {
           localStorage.setItem("auth-coreui-zabbix", data.data.result);
-          api.post(this.state.urlzabbix, {
+          api.post("https://monitor.blocktime.com.br/zabbix/api_jsonrpc.php", {
             "jsonrpc": "2.0",
             "method": "user.get",
             "params": {

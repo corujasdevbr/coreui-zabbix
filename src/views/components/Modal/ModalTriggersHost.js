@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import api from '../../../services/api';
 import DataTable from 'react-data-table-component';
-import Loading from '../../components/Loading/Loading'
+import Loading from '../Loading/Loading'
 import { Button, Modal, ModalBody, ModalFooter, ModalHeader } from 'reactstrap';
 
-function ModalItemsHost(props) {
+function ModalTriggersHost(props) {
 
 
     const toTimestamp = (time) => {
@@ -22,32 +22,26 @@ function ModalItemsHost(props) {
     const columns = [
         {
             name: 'Id',
-            selector: 'itemid',
+            selector: 'triggerid',
             sortable: true,
         },
         {
             name: 'Nome',
-            selector: 'name',
+            selector: 'description',
             sortable: true
-        },
-        {
-            cell: row => <p>{toTimestamp(row.lastclock)}</p>,
-            name: 'Data',
-            selector: 'lastclock',
-            sortable: true,
         }
     ];
 
     useEffect(() => {
-        buscarItemsHost();
+        buscarTriggersHost();
     }, [props.isOpen])
 
-    const buscarItemsHost = () => {
+    const buscarTriggersHost = () => {
         setLoading(true);
         let token = localStorage.getItem("auth-coreui-zabbix");
         api.post("", {
             "jsonrpc": "2.0",
-            "method": "item.get",
+            "method": "trigger.get",
             "params": {
                 "output": "extend",
                 "hostids": props.hostid
@@ -56,6 +50,7 @@ function ModalItemsHost(props) {
             "id": 1
         })
             .then(data => {
+                console.log(data);
                 if (data.status === 200) {
                     
                     setItems(data.data.result);
@@ -85,4 +80,4 @@ function ModalItemsHost(props) {
     )
 }
 
-export default ModalItemsHost;
+export default ModalTriggersHost;

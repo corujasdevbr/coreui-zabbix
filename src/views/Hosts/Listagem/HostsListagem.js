@@ -4,6 +4,7 @@ import { Card, CardBody, CardHeader, Col, Row, Button, Input, FormGroup, Label, 
 import api from '../../../services/api';
 import DataTable from 'react-data-table-component';
 import ModalItemsHost from '../../components/Modal/ModalItemsHost';
+import ModalTriggersHost from '../../components/Modal/ModalTriggersHost';
 import Loading from '../../components/Loading/Loading'
 
 
@@ -18,7 +19,8 @@ function HostsListagem() {
   const [items, setItems] = useState([]);
   const [filteredItems, setFilteredItems] = useState([]);
 
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpenHardware, setIsOpenHardware] = useState(false);
+  const [isOpenTrigger, setIsOpenTrigger] = useState(false);
   const [title, setTitle] = useState('');
   const [hostid, setHostId] = useState('');
 
@@ -39,7 +41,13 @@ function HostsListagem() {
       sortable: true
     },
     {
-      cell: row => <Button onClick={() => { handleAction(row.hostid) }}>Visualizar</Button>,
+      cell: row => <Button onClick={() => { handleAction(row.hostid) }}>Hardware</Button>,
+      ignoreRowClick: true,
+      allowOverflow: true,
+      button: true,
+    },
+    {
+      cell: row => <Button onClick={() => { handleActionTrigger(row.hostid) }}>Trigger</Button>,
       ignoreRowClick: true,
       allowOverflow: true,
       button: true,
@@ -61,8 +69,6 @@ function HostsListagem() {
         setFilterGroup(event.target.value);
     }
 
-    console.log(filterText)
-    console.log(filterGroup)
     if (filterText !== '') {
       listHosts = listHosts.filter(item => item.hostid.includes(filterText) || item.host.toLowerCase().includes(filterText))
     }
@@ -74,11 +80,18 @@ function HostsListagem() {
     setFilteredItems(listHosts);
   }
 
+  const handleAction = (hostId) => {
+    
+    
+    setIsOpenHardware(true);
+    setTitle('Host Id: ' + hostId)
+    setHostId(hostId);
+  }
 
-  const handleAction = (hostid) => {
-    setHostId(hostid);
-    setIsOpen(true);
-    setTitle('Host Id: ' + hostid)
+  const handleActionTrigger = (hostId) => {
+    setIsOpenTrigger(true);
+    setTitle('Host Id: ' + hostId)
+    setHostId(hostId);
   }
 
   const buscarHostGroups = () => {
@@ -120,7 +133,6 @@ function HostsListagem() {
             item.groups.forEach((item => {
               groupstemp += item.name + ' - '
             }));
-            console.log(groupstemp);
             return { hostid: item.hostid, host: item.host, groups: groupstemp }
           })
           setItems(listGroups);
@@ -134,7 +146,9 @@ function HostsListagem() {
 
   return (
     <div className="animated fadeIn">
-      <ModalItemsHost title={title} isOpen={isOpen} hostid={hostid} toggleSmall={() => setIsOpen(false)}></ModalItemsHost>
+      <ModalItemsHost title={title} isOpen={isOpenHardware} hostid={hostid} toggleSmall={() => setIsOpenHardware(false)}></ModalItemsHost>
+      <ModalTriggersHost title={'Triggers Host - ' + hostid} isOpen={isOpenTrigger} hostid={hostid} toggleSmall={() => setIsOpenTrigger(false)}></ModalTriggersHost>
+
       {loading ? <Loading type="balls" title="Buscando Hosts"></Loading> : ''}
 
       <Row>
